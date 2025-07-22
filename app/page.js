@@ -1,9 +1,10 @@
-import Image from "next/image";
+import TodoApp from "@/Components/TodoApp/TodoApp";
+
 
 export default function Home() {
   return (
     <>
-      <div> Home Page</div>
+      <TodoApp/>
     </>
   );
 }
